@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS </title>
+
+    <link rel="stylesheet" href="/style.css">
+    <script src="/main.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    
+    <div class="conteiner">
+
+         
+        
+        <div  id="inputLimited" class="display" data-display oninput="limitarCaracteres()">1</div>
+            
+
+        <div class="buttons">
+        
+        <Button class="operator operatorReset" data-clear>AC</Button>
+        <Button class="operator operatordelete" data-delete>DEL</Button>
+        <Button class="operator" data-operation="%">%</Button>
+        <Button class="operator" data-operation="/">/</Button>
+
+        <Button data-number>7</Button>
+        <Button data-number>8</Button>
+        <Button data-number>9</Button>
+        <Button class="operator"data-operation="*">*</Button>
+
+        <Button data-number>4</Button>
+        <Button data-number>5</Button>
+        <Button data-number>6</Button>
+        <Button class="operator" data-operation="-">-</Button>
+
+        <Button data-number>1</Button>
+        <Button data-number>2</Button>
+        <Button data-number>3</Button>
+        <Button class="operator" data-operation="+">+</Button>
+
+        <Button data-number>0</Button>
+        <Button data-number>00</Button>
+        <Button data-number>.</Button>
+        <Button class="operator operatorEqual" data-operation="=">=</Button>
+        
+       
+       
+    </div>
+
+
+
+
+</div>
+    
+</body>
+</html>

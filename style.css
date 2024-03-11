@@ -1,0 +1,78 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:"Poppins",sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#3399ff ;
+}
+
+.conteiner{
+
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    background-color: #e6e6e6;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0.5rem;
+    margin-top: 10px;
+    
+}
+
+.display{
+    display: grid;
+    height: 85px;
+    width: 100%;
+    text-align: right;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    border-radius: 11px;
+    background-color: white;
+}
+
+
+.buttons button{
+    padding: 12px 10px;
+    border-radius: 5px;
+    border:none;
+    background-color: hsl(120, 79%, 63%);
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.buttons button:active{ 
+    transform: scale(0.95);
+}
+
+.operator{
+    color:  #006600 ;
+}
+
+.operatordelete{
+    color: #e70e20;
+}
+
+.operatorReset{
+    color:#ffff00 ;         
+}
+
+.operatorEqual{
+    color: #ce4709;
+}
